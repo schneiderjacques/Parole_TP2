@@ -32,4 +32,4 @@ hamming = fenetrageHamming(fen_size)
 
 
 # Écrire le fichier wav
-write("resultat.wav", fs, np.int16(signal_modif))
+#write("resultat.wav", fs, np.int16(signal_modif))
