@@ -31,5 +31,6 @@ n_fen = int((n_samples - fen_size) / hop_size) + 1  # Nombre de fenêtres
 hamming = fenetrageHamming(fen_size)
 
 
+
 # Écrire le fichier wav
 #write("resultat.wav", fs, np.int16(signal_modif))
