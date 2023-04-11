@@ -67,12 +67,12 @@ def main():
     # Paramètres du traitement
     fft_size = 1024
     intervalle_frequences = 102
-    alpha = 2
+    alpha = 4
     beta = 1
     coef = 0
 
     # Lecture du fichier audio
-    filename = "test_seg_bruit_10dB.wav"
+    filename = "test_seg_bruit_0dB.wav"
     fs, signal = read(filename)
 
     # Taille de la fenêtre et taille de pas
